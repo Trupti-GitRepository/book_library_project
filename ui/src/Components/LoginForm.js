@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
 
 function LoginForm() {
     return <div>
@@ -16,7 +17,7 @@ function LoginForm() {
             <button className="text-white w-full rounded-full bg-blue-500 hover:bg-blue-700:text-white font-bold py-2 px-4 round">Login</button>
           </div>
           <div className="mt-14 text-center">
-            Are you new? <a className="text-bold text-blue-500" href="#">Register</a>
+            Are you new? <Link to="/register" className="text-bold text-blue-500">Register</Link>
           </div>
         </form>
   </div>;
