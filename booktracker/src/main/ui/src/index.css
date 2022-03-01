@@ -42,3 +42,11 @@
     position: relative;
     bottom: -10px;
 }
+
+.heartGray {
+    fill: lightgray;
+}
+
+.activeHeart {
+    fill: palevioletred;
+}
